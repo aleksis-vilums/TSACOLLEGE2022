@@ -1,0 +1,11 @@
+.title{
+    color: blue;
+    text-align: center;
+}
+
+.paragraph{
+    color: blue;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {}
