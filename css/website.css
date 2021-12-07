@@ -1,20 +1,51 @@
-body{
-    margin: 0%;
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 .topPage{
     background-image: url(../images/TopPage.jpg);
-    height: 300px;
+    width: auto;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
 }
 .title{
     color: white;
     text-align: center;
+    margin: 0%;
+    size: 200px;
 }
 
 .paragraph{
     color: black;
     text-align: center;
+    margin: 0%;
+}
+
+.navBar{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5px;
+}
+
+.scrollImage{
+    background-image: url(../images/paragraphImage.jpg);
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    height: 467px;
+}
+
+.iframe{
+    width: 100vw;
+    height: 100vh;
 }
 
 @media only screen and (max-width: 1000px) {}
