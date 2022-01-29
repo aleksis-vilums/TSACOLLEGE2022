@@ -6,25 +6,45 @@ html,body{
     overflow-x: hidden;
 }
 
-.nav_buttons{
-    background-color: orange;
-    margin: 25px;
-    text-decoration: none;
-}
-
 .nav-container{
-  margin-right: 20px;
+  margin-right: 10px;
   text-align: right;
   float: right;
+  height: 50%;
 }
 
-.backgroundTop{
-  height: 100vh;
+.nav_buttons{
+    background-color: #F5882A;
+    text-decoration: none;
+    font-size: 200%;
+    padding: 40px;
+}
+
+.index-top{
+  background-image: url(../images/homePhoto.jpg);
+  height: 90vh;
   width: 100vw;
   background-size: cover;
-  background-image: url(../images/paragraphImage.jpg);
   background-repeat: no-repeat;
+  background-position: center center;    
 }
+
+.college-match-top{
+  background-image: url(../images/livePhoto.jpg);
+  height: 90vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;    
+}
+
+.parallax{ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .topPage{
     width: 100%;
@@ -33,17 +53,12 @@ html,body{
     background-size: cover;
     margin: 0%;
 }
+
 .title{
-    color: rgb(202, 175, 175);
+    color: #EB6228;
     text-align: center;
     margin: 0%;
     size: 200px;
-}
-
-.paragraph{
-    color: yellow;
-    text-align: center;
-    margin: 0%;
 }
 
 .navBar{
@@ -66,19 +81,26 @@ html,body{
     height: 100vh;
 }
 
-/* Slideshow container */
+.front-page-background{
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 25px;
+  float: left;
+  background-color: #F2B91D;
+}
+
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  float: right;
+  margin-right: 50px;
+  margin-top: 50px;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -92,6 +114,8 @@ html,body{
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  background-color: rgba(0,0,0,0.8);
+  opacity: 0.5;
 }
 
 /* Position the "next button" to the right */
@@ -102,12 +126,12 @@ html,body{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  opacity: 1;
 }
 
 /* Caption text */
 .text {
-  color: black;
+  color: #F2B91D;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -116,31 +140,32 @@ html,body{
   text-align: center;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+.slide_desc{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 30%;
+  background-color: white;
 }
 
-.active, .dot:hover {
+.active{
   background-color: #717171;
 }
 
 .footBar{
-  height: 100px;
+  height: 20vh;
   width: 100%;
 }
 
-.halfCol{
-  width: 50%;
+.footer{
   float: left;
   position: relative;
 }
 
 /* @media only screen and (max-width: 1000px) {} */
+
+/* Orange: #F5882A
+Dark Orange: #EB6228
+Yellow: #F2B91D
+Light Yellow: #E8C91C */
