@@ -190,6 +190,7 @@ html,body{
   height: 100%;
   width: 30%;
   background-color: white;
+  font-size: 45px;
 }
 
 .active{
