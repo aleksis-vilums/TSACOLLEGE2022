@@ -123,6 +123,13 @@ html,body{
   margin-top: 50px;
 }
 
+.slideshow-container-college{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+}
+
 .mySlides {
   display: none;
 }
@@ -164,6 +171,16 @@ html,body{
   bottom: 8px;
   width: 100%;
   text-align: center;
+}
+
+.liveText{
+  color: white;
+  background-color: red;
+  border-radius: 25px;
+  font-size: 40px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
 .slide_desc{
